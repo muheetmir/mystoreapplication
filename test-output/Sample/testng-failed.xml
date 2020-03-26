@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="80"/>
+  <test name="SampleTest(failed)">
+    <parameter name="os" value="WIN"/>
+    <parameter name="osVersion" value="10"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserVersion" value="80"/>
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript">
+        <methods>
+          <include name="sampleTest" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="preSetup"/>
+        </methods>
+      </class> <!-- FalconTesting.FalconTraining.testscript.SampleTestScript -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Sample] -->

@@ -1,0 +1,7 @@
+com\qa\automation\mystoreapp\testscript\MyStoreLogin.class
+com\qa\automation\mystoreapp\config\LoginPageConstants.class
+com\qa\automation\mystoreapp\testscript\TestScript.class
+com\qa\automation\mystoreapp\helper\PropertyLoginPage.class
+com\qa\automation\mystoreapp\runner\TestNGRunner.class
+com\qa\automation\mystoreapp\pages\LoginPage.class
+com\qa\automation\mystoreapp\testsuite\TestSuiteBase.class

@@ -1,0 +1,1088 @@
+2020-03-16 19:51:30 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-16 19:51:30 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-16 19:51:30 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2020-03-16 19:51:31 DEBUG SimpleXMLErrorHandler:38 - Fatal Error in Parsing XML Doucment. XML is not well formed: The markup declarations contained or pointed to by the document type declaration must be well-formed.
+2020-03-17 12:36:11 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-17 12:36:19 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 12:38:13 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-17 12:38:19 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 12:39:57 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-17 12:40:03 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 12:46:02 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-17 12:46:08 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 12:47:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-17 12:47:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-17 12:47:19 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2020-03-17 12:47:20 DEBUG SimpleXMLErrorHandler:38 - Fatal Error in Parsing XML Doucment. XML is not well formed: The markup declarations contained or pointed to by the document type declaration must be well-formed.
+2020-03-17 12:48:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-17 12:48:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-17 12:48:49 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2020-03-17 12:48:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-17 12:48:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-17 12:48:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2020-03-17 12:48:50 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2020-03-17 12:48:50 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-17 12:48:56 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 12:49:17 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-17 12:53:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-17 12:53:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-17 12:53:37 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2020-03-17 12:53:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-17 12:53:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-17 12:53:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2020-03-17 12:53:37 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2020-03-17 12:53:37 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-17 12:53:46 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 12:53:47 INFO  SampleTestScript:49 - entering text: Selenium
+2020-03-17 12:53:47 INFO  SampleTestScript:49 - pressing enter key
+2020-03-17 12:53:49 INFO  SampleTestScript:49 - waiting for 2 second
+2020-03-17 12:53:51 INFO  SampleTestScript:49 - verifying page title
+2020-03-17 12:53:51 INFO  VerificationManager:229 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2020-03-17 12:53:52 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-17 13:15:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-17 13:15:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-17 13:15:21 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53,WIN_7_edge_42 is: WIN_7_chrome_53,WIN_7_edge_42
+2020-03-17 13:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-17 13:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-17 13:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2020-03-17 13:15:22 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2020-03-17 13:15:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_edge_42
+2020-03-17 13:15:22 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_edge_42 -->
+
+2020-03-17 13:15:22 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-17 13:15:27 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 13:15:28 INFO  SampleTestScript:49 - entering text: Selenium
+2020-03-17 13:15:28 INFO  SampleTestScript:49 - pressing enter key
+2020-03-17 13:15:31 INFO  SampleTestScript:49 - waiting for 2 second
+2020-03-17 13:15:33 INFO  SampleTestScript:49 - verifying page title
+2020-03-17 13:15:33 INFO  VerificationManager:229 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2020-03-17 13:15:34 INFO  SampleTestScript:49 - Opening browser: edge
+2020-03-17 13:15:37 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 13:15:37 INFO  SampleTestScript:49 - entering text: Selenium
+2020-03-17 13:15:37 INFO  SampleTestScript:49 - pressing enter key
+2020-03-17 13:15:37 INFO  SampleTestScript:49 - waiting for 2 second
+2020-03-17 13:15:39 INFO  SampleTestScript:49 - verifying page title
+2020-03-17 13:15:39 INFO  VerificationManager:229 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2020-03-17 13:15:41 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-17 13:16:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-17 13:16:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-17 13:16:49 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53,WIN_7_edge_42 is: WIN_7_chrome_53,WIN_7_edge_42
+2020-03-17 13:16:50 DEBUG SimpleXMLErrorHandler:38 - Fatal Error in Parsing XML Doucment. XML is not well formed: The markup declarations contained or pointed to by the document type declaration must be well-formed.
+2020-03-17 13:17:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-17 13:17:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-17 13:17:28 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53,WIN_7_edge_42 is: WIN_7_chrome_53,WIN_7_edge_42
+2020-03-17 13:17:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-17 13:17:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-17 13:17:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2020-03-17 13:17:28 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2020-03-17 13:17:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_edge_42
+2020-03-17 13:17:28 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_edge_42 -->
+
+2020-03-17 13:17:29 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-17 13:17:33 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 13:17:35 INFO  SampleTestScript:49 - entering text: Selenium
+2020-03-17 13:17:35 INFO  SampleTestScript:49 - pressing enter key
+2020-03-17 13:17:37 INFO  SampleTestScript:49 - waiting for 2 second
+2020-03-17 13:17:39 INFO  SampleTestScript:49 - verifying page title
+2020-03-17 13:17:39 INFO  VerificationManager:229 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2020-03-17 13:17:40 INFO  SampleTestScript:49 - Opening browser: edge
+2020-03-17 13:17:42 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 13:17:42 INFO  SampleTestScript:49 - entering text: Selenium
+2020-03-17 13:17:42 INFO  SampleTestScript:49 - pressing enter key
+2020-03-17 13:17:42 INFO  SampleTestScript:49 - waiting for 2 second
+2020-03-17 13:17:44 INFO  SampleTestScript:49 - verifying page title
+2020-03-17 13:17:44 INFO  VerificationManager:229 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2020-03-17 13:17:46 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-17 13:22:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-17 13:22:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-17 13:22:16 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53,WIN_7_firefox_56 is: WIN_7_chrome_53,WIN_7_firefox_56
+2020-03-17 13:22:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-17 13:22:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-17 13:22:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2020-03-17 13:22:16 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2020-03-17 13:22:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_firefox_56
+2020-03-17 13:22:16 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_firefox_56">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="browserVersion" value="56"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_firefox_56 -->
+
+2020-03-17 13:22:16 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-17 13:22:22 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 13:22:23 INFO  SampleTestScript:49 - entering text: Selenium
+2020-03-17 13:22:23 INFO  SampleTestScript:49 - pressing enter key
+2020-03-17 13:22:27 INFO  SampleTestScript:49 - waiting for 2 second
+2020-03-17 13:22:29 INFO  SampleTestScript:49 - verifying page title
+2020-03-17 13:22:29 INFO  VerificationManager:229 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2020-03-17 13:22:30 INFO  SampleTestScript:49 - Opening browser: firefox
+2020-03-17 13:23:51 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-17 15:18:58 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-17 15:18:58 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-17 15:18:58 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53,WIN_7_firefox_74 is: WIN_7_chrome_53,WIN_7_firefox_74
+2020-03-17 15:18:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-17 15:18:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-17 15:18:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2020-03-17 15:18:59 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2020-03-17 15:18:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_firefox_74
+2020-03-17 15:18:59 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_firefox_74 -->
+
+2020-03-17 15:18:59 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-17 15:19:07 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 15:19:09 INFO  SampleTestScript:49 - entering text: Selenium
+2020-03-17 15:19:09 INFO  SampleTestScript:49 - pressing enter key
+2020-03-17 15:19:11 INFO  SampleTestScript:49 - waiting for 2 second
+2020-03-17 15:19:13 INFO  SampleTestScript:49 - verifying page title
+2020-03-17 15:19:13 INFO  VerificationManager:229 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2020-03-17 15:19:14 INFO  SampleTestScript:49 - Opening browser: firefox
+2020-03-17 15:19:25 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 15:19:25 INFO  SampleTestScript:49 - entering text: Selenium
+2020-03-17 15:19:25 INFO  SampleTestScript:49 - pressing enter key
+2020-03-17 15:19:25 INFO  SampleTestScript:49 - waiting for 2 second
+2020-03-17 15:19:27 INFO  SampleTestScript:49 - verifying page title
+2020-03-17 15:19:27 INFO  VerificationManager:229 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2020-03-17 15:19:34 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-17 16:54:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-17 16:54:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-17 16:54:01 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53,WIN_7_firefox_74 is: WIN_7_chrome_53,WIN_7_firefox_74
+2020-03-17 16:54:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-17 16:54:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-17 16:54:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2020-03-17 16:54:01 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2020-03-17 16:54:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_firefox_74
+2020-03-17 16:54:01 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_firefox_74 -->
+
+2020-03-17 16:54:01 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-17 16:54:07 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 16:54:08 INFO  SampleTestScript:49 - entering text: Selenium
+2020-03-17 16:54:08 INFO  SampleTestScript:49 - pressing enter key
+2020-03-17 16:54:09 INFO  SampleTestScript:49 - waiting for 2 second
+2020-03-17 16:54:11 INFO  SampleTestScript:49 - verifying page title
+2020-03-17 16:54:11 ERROR VerificationManager:236 - FAIL : expected [Selenium - Google Search] but found [Google] Actual value : Google is not same as Expected value: Selenium - Google Search
+2020-03-17 16:54:11 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-17 16:54:12 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection refused: connect
+2020-03-17 16:54:14 INFO  SampleTestScript:49 - Opening browser: firefox
+2020-03-17 16:54:25 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-17 16:54:25 INFO  SampleTestScript:49 - entering text: Selenium
+2020-03-17 16:54:25 INFO  SampleTestScript:49 - pressing enter key
+2020-03-17 16:54:26 INFO  SampleTestScript:49 - waiting for 2 second
+2020-03-17 16:54:28 INFO  SampleTestScript:49 - verifying page title
+2020-03-17 16:54:28 ERROR VerificationManager:236 - FAIL : expected [Selenium - Google Search] but found [Google] Actual value : Google is not same as Expected value: Selenium - Google Search
+2020-03-17 16:54:28 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-17 16:54:29 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection refused: connect
+2020-03-17 16:54:35 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 11:45:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 11:45:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 11:45:32 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 11:47:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 11:47:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 11:47:09 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 11:47:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 11:47:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 11:47:09 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 11:47:09 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 11:47:09 INFO  SampleTestScript:49 - Opening browser: chrome
+2020-03-26 11:47:18 INFO  SampleTestScript:49 - Maximizing browser window
+2020-03-26 11:47:19 INFO  SampleTestScript:49 - entering text: Selenium
+2020-03-26 11:47:20 INFO  SampleTestScript:49 - pressing enter key
+2020-03-26 11:47:20 INFO  SampleTestScript:49 - waiting for 2 second
+2020-03-26 11:47:22 INFO  SampleTestScript:49 - verifying page title
+2020-03-26 11:47:22 ERROR VerificationManager:236 - FAIL : expected [Selenium - Google Search] but found [Google] Actual value : Google is not same as Expected value: Selenium - Google Search
+2020-03-26 11:47:22 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 11:47:43 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 11:47:45 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 13:30:27 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 13:30:27 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 13:30:27 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 13:30:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 13:30:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 13:30:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 13:30:28 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.TestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 13:30:28 INFO  TestScript:49 - Opening browser: chrome
+2020-03-26 13:30:39 INFO  TestScript:49 - Maximizing browser window
+2020-03-26 13:30:40 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 13:31:01 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 13:31:03 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 13:35:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 13:35:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 13:35:01 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 13:35:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 13:35:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 13:35:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 13:35:01 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.TestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 13:35:02 INFO  TestScript:49 - Opening browser: chrome
+2020-03-26 13:35:08 INFO  TestScript:49 - Maximizing browser window
+2020-03-26 13:35:10 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 13:35:31 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 13:35:32 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 14:30:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 14:30:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 14:30:50 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 14:30:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 14:30:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 14:30:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 14:30:50 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 14:30:50 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 14:31:06 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 14:31:08 ERROR VerificationManager:236 - FAIL : expected [Login - My Store] but found [My Store] Actual value : My Store is not same as Expected value: Login - My Store
+2020-03-26 14:31:08 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 14:31:29 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 14:31:30 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 14:33:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 14:33:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 14:33:05 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 14:33:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 14:33:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 14:33:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 14:33:05 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 14:33:05 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 14:33:22 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 14:33:23 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-26 14:33:24 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 14:33:45 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 14:33:46 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 15:39:45 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 15:39:45 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 15:39:45 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 15:39:45 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 15:39:45 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 15:39:45 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 15:39:45 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 15:39:45 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 15:42:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 15:42:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 15:42:16 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 15:42:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 15:42:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 15:42:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 15:42:16 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 15:42:17 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 15:42:34 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 15:42:36 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-26 15:42:36 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 15:42:57 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 15:42:58 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 15:47:30 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 15:47:30 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 15:47:30 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 15:47:31 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 15:47:31 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 15:47:31 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 15:47:31 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 15:47:31 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 15:47:48 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 15:47:49 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-26 15:47:50 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 15:48:11 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 15:48:12 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 15:49:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 15:49:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 15:49:04 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 15:49:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 15:49:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 15:49:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 15:49:04 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 15:49:04 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 15:49:27 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 15:49:28 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-26 15:49:29 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 15:49:50 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 15:49:51 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 15:59:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 15:59:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 15:59:28 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 15:59:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 15:59:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 15:59:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 15:59:28 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 15:59:28 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 15:59:52 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 15:59:54 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-26 15:59:54 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 16:00:15 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 16:00:16 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 16:15:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 16:15:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 16:15:21 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 16:15:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 16:15:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 16:15:21 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 16:15:21 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 16:15:22 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 16:15:41 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 16:15:42 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-26 16:15:43 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 16:16:04 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 16:16:05 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 16:26:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 16:26:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 16:26:23 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 16:26:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 16:26:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 16:26:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 16:26:23 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 16:26:23 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 16:26:47 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 16:26:48 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-26 16:26:49 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 16:27:10 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 16:27:12 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 16:32:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 16:32:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 16:32:33 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 16:32:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 16:32:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 16:32:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 16:32:33 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 16:32:33 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 16:32:51 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 16:32:52 ERROR VerificationManager:236 - FAIL : expected [My Store] but found [Login - My Store] Actual value : Login - My Store is not same as Expected value: My Store
+2020-03-26 16:32:53 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 16:34:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 16:34:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 16:34:42 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 16:34:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 16:34:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 16:34:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 16:34:42 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 16:34:42 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 16:35:01 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 16:35:02 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 16:35:23 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 16:35:24 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 16:39:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 16:39:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 16:39:24 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 16:39:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 16:39:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 16:39:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 16:39:24 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 16:39:24 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 16:39:42 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 16:39:44 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 16:40:05 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 16:40:06 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 16:43:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 16:43:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 16:43:19 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 16:43:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 16:43:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 16:43:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 16:43:19 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 16:43:19 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 16:43:37 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 16:43:39 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 16:44:00 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 16:44:01 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 16:54:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 16:54:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 16:54:15 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 16:54:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 16:54:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 16:54:16 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 16:54:16 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 16:54:16 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 16:54:34 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 16:54:36 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 16:54:57 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 16:54:57 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 16:55:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 16:55:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 16:55:56 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 16:55:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 16:55:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 16:55:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 16:55:56 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 16:55:57 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 16:56:16 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 16:56:18 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 16:56:39 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 16:56:40 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 17:00:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 17:00:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 17:00:40 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 17:00:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 17:00:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 17:00:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 17:00:40 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 17:00:40 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 17:00:55 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 17:01:00 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 17:02:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 17:02:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 17:02:35 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 17:02:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 17:02:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 17:02:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 17:02:36 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 17:02:36 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 17:02:51 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 17:02:57 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 17:03:18 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 17:03:18 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 17:08:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 17:08:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 17:08:23 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 17:08:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 17:08:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 17:08:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 17:08:23 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 17:08:23 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 17:08:37 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 17:08:43 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 17:09:04 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 17:09:04 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 17:12:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 17:12:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 17:12:38 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 17:12:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 17:12:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 17:12:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 17:12:39 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 17:12:39 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 17:12:56 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 17:13:01 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 17:16:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 17:16:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 17:16:04 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 17:16:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 17:16:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 17:16:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 17:16:05 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 17:16:05 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 17:16:19 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 17:16:20 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 17:16:41 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 17:16:41 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 17:23:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 17:23:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 17:23:39 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 17:23:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 17:23:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 17:23:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 17:23:39 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 17:23:39 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 17:23:53 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 17:23:59 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 17:26:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 17:26:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 17:26:18 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 17:26:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 17:26:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 17:26:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 17:26:18 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 17:26:18 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 17:26:36 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 17:26:42 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 17:27:03 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-26 17:27:03 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-26 17:40:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 17:40:18 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 17:40:18 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 17:40:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 17:40:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 17:40:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 17:40:19 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 17:40:19 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 17:40:32 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 17:40:38 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 17:41:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 17:41:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 17:41:29 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 17:41:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 17:41:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 17:41:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 17:41:29 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 17:41:30 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 17:41:43 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 17:41:48 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-26 17:58:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-26 17:58:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-26 17:58:14 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_53 is: WIN_10_chrome_53
+2020-03-26 17:58:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-26 17:58:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-26 17:58:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_53
+2020-03-26 17:58:14 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
+
+2020-03-26 17:58:14 INFO  MyStoreLogin:49 - Opening browser: chrome
+2020-03-26 17:58:27 INFO  MyStoreLogin:49 - Maximizing browser window
+2020-03-26 17:58:33 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details

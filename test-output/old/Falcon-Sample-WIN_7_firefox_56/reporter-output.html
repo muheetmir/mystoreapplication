@@ -1,0 +1,55 @@
+<h2>Reporter output</h2><table><tr><td>INFO: The value found with Environment variable Falcon is: Falcon</td></tr>
+<tr><td>INFO: The value found with Environment Module variable sample is: sample</td></tr>
+<tr><td>The value found with Environment variable WIN_7_chrome_53,WIN_7_firefox_56 is: WIN_7_chrome_53,WIN_7_firefox_56</td></tr>
+<tr><td>INFO: Clients Found: [Falcon]
+</td></tr>
+<tr><td>INFO: Modules Selected: [sample]
+</td></tr>
+<tr><td>INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53</td></tr>
+<tr><td><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+</td></tr>
+<tr><td>INFO: New Suite Created with name: Falcon-Sample-WIN_7_firefox_56</td></tr>
+<tr><td><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_firefox_56">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="browserVersion" value="56"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="FalconTesting.FalconTraining.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_firefox_56 -->
+</td></tr>
+<tr><td>Opening browser: chrome</td></tr>
+<tr><td>Maximizing browser window</td></tr>
+<tr><td>entering text: Selenium</td></tr>
+<tr><td>pressing enter key</td></tr>
+<tr><td>waiting for 2 second</td></tr>
+<tr><td>verifying page title</td></tr>
+<tr><td>PASS : Verifying String Message  : ACTUAL : Selenium - Google Search 	EXPECTED :Selenium - Google Search</td></tr>
+<tr><td>Opening browser: firefox</td></tr>
+<tr><td>Unexpected exception occur: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '55.55.55.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver</td></tr>
+<tr><td>Unexpected exception occur: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '55.55.55.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver</td></tr>
+<tr><td>Browser is not available to close the browser null</td></tr>
+</table>
