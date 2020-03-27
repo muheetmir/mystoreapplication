@@ -4,6 +4,6 @@ import java.io.File;
 
 public class MyStoreAppConstants {
 	
-	public static String locators="src"+File.separator+"main"+File.separator+"resources"+File.separator;
-	public static String loginpagefile=locators+File.separator+"pages"+File.separator+"locators.properties";
+	public static String resources="src"+File.separator+"main"+File.separator+"resources"+File.separator;
+	public static String propertiesfile=resources+File.separator+"pages"+File.separator+"locators.properties";
 }

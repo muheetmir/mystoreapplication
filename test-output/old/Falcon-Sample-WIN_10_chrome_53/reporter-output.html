@@ -15,14 +15,19 @@
   <parameter name="browserVersion" value="53"/>
   <test name="SampleTest">
     <classes>
-      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin"/>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
     </classes>
   </test> <!-- SampleTest -->
 </suite> <!-- Falcon-Sample-WIN_10_chrome_53 -->
 </td></tr>
 <tr><td>Opening browser: chrome</td></tr>
 <tr><td>Maximizing browser window</td></tr>
-<tr><td>FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details</td></tr>
-<tr><td>Unknown error cannot upload screenshot to server : Connection timed out: connect</td></tr>
-<tr><td>Unknown error cannot upload screenshot to server : Connection timed out: connect</td></tr>
+<tr><td>PASS : Verifying the login page title : ACTUAL : My Store 	EXPECTED :My Store</td></tr>
+<tr><td>sign into the application</td></tr>
+<tr><td>enter the user name</td></tr>
+<tr><td>enter the password</td></tr>
+<tr><td>click on sign in button</td></tr>
+<tr><td>PASS : verifying user first and last name : ACTUAL : aaa zzz 	EXPECTED :aaa zzz</td></tr>
+<tr><td>Locator type doesn't existCannot find elements when the XPath expression is null.</td></tr>
+<tr><td>PASS : verify order confirmaiton : ACTUAL : Your order on My Store is complete. 	EXPECTED :Your order on My Store is complete.</td></tr>
 </table>

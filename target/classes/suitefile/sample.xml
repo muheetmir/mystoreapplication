@@ -6,7 +6,7 @@
 
 	<test name="SampleTest">
 		<classes>
-			<class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin" />
+			<class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder" />
 		</classes>
 	</test>
 

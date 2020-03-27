@@ -5,6 +5,7 @@ import com.atmecs.falcon.automation.ui.selenium.Browser;
 import com.atmecs.falcon.automation.util.enums.LocatorType;
 import com.atmecs.falcon.automation.util.reporter.ReportLogService;
 import com.atmecs.falcon.automation.util.reporter.ReportLogServiceImpl;
+import com.atmecs.falcon.automation.verifyresult.VerificationManager;
 import com.qa.automation.mystoreapp.config.MyStoreAppConstants;
 import com.qa.automation.mystoreapp.helper.MyStoreAppHelper;
 
@@ -13,7 +14,7 @@ public class PaymentPage extends MyStoreAppHelper{
 	
 	private ReportLogService report=new ReportLogServiceImpl(PaymentPage.class);
 
-	static Properties paymentprop=loadProperties(MyStoreAppConstants.loginpagefile);
+	static Properties paymentprop=loadProperties(MyStoreAppConstants.propertiesfile);
 	
 	public PaymentPage(Browser browser)
 	{
@@ -30,6 +31,13 @@ public class PaymentPage extends MyStoreAppHelper{
 	{
 		String confirmorder=paymentprop.getProperty("confirmorderbtn_xpath");
 		browser.getClick().performClick(LocatorType.XPATH, confirmorder);
+	}
+	
+	public void verifyOrderPlaced()
+	{
+		String confirmordertext=paymentprop.getProperty("orderplacedmessage_xpath");
+		String ordermesssage= browser.getFindFromBrowser().findElementByXpath(confirmordertext).getText();
+		VerificationManager.verifyString(ordermesssage, "Your order on My Store is complete.", "verify order confirmaiton");
 	}
 	
 	

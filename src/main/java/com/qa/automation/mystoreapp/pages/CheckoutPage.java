@@ -20,7 +20,7 @@ public class CheckoutPage extends MyStoreAppHelper{
 	JavascriptExecutor executor;
 	private ReportLogService report=new ReportLogServiceImpl(CheckoutPage.class);
 
-	static Properties checkoutprop=loadProperties(MyStoreAppConstants.loginpagefile);
+	static Properties checkoutprop=loadProperties(MyStoreAppConstants.propertiesfile);
 	
 	public CheckoutPage(Browser browser)
 	{
@@ -29,8 +29,8 @@ public class CheckoutPage extends MyStoreAppHelper{
 	
 	public void clickProceedToCheckOut()
 	{
-		WebElement proceedtochkoutbtn=browser.getDriver().findElement(By.xpath("//a[(contains(@class,'button-medium')]"));
-		executor=(JavascriptExecutor)browser;
+		WebElement proceedtochkoutbtn=browser.getDriver().findElement(By.xpath("//a[contains(@class,'button-medium')]"));
+		executor=(JavascriptExecutor)browser.getDriver();
 		executor.executeScript("arguments[0].click();",proceedtochkoutbtn);
 	}
 	
@@ -49,6 +49,7 @@ public class CheckoutPage extends MyStoreAppHelper{
 	public void checkoutShipping()
 	{	
 		String termsofservice=checkoutprop.getProperty("Termsofservice_id");
+		browser.getWait().HardPause(2000);
 		browser.getCheckBox().clickCheckBoxById(LocatorType.ID, termsofservice, SelectType.CHECK);
 		String chkoutshipping=checkoutprop.getProperty("checkoutshipping_name");
 		browser.getClick().performClick(LocatorType.NAME, chkoutshipping);

@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="com.qa.automation.mystoreapp.AppTest" duration-ms="0" started-at="2020-03-26T12:28:13Z" finished-at="2020-03-26T12:28:13Z">
+  <suite name="com.qa.automation.mystoreapp.AppTest" duration-ms="6" started-at="2020-03-27T15:03:46Z" finished-at="2020-03-27T15:03:46Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="0" started-at="2020-03-26T12:28:13Z" finished-at="2020-03-26T12:28:13Z">
+    <test name="Command line test" duration-ms="6" started-at="2020-03-27T15:03:46Z" finished-at="2020-03-27T15:03:46Z">
     </test> <!-- Command line test -->
   </suite> <!-- com.qa.automation.mystoreapp.AppTest -->
 </testng-results>

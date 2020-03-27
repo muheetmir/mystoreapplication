@@ -7,12 +7,13 @@
   <parameter name="browserVersion" value="53"/>
   <test name="SampleTest(failed)">
     <classes>
-      <class name="com.qa.automation.mystoreapp.testscript.MyStoreLogin">
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder">
         <methods>
           <include name="preSetup"/>
-          <include name="signIntoMyStore" invocation-numbers="0"/>
+          <include name="performCheckout"/>
+          <include name="confirmOrder"/>
         </methods>
-      </class> <!-- com.qa.automation.mystoreapp.testscript.MyStoreLogin -->
+      </class> <!-- com.qa.automation.mystoreapp.testscript.MyStoreOrder -->
     </classes>
   </test> <!-- SampleTest(failed) -->
 </suite> <!-- Failed suite [Falcon-Sample-WIN_10_chrome_53] -->

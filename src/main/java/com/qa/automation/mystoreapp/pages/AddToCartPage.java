@@ -19,13 +19,15 @@ public class AddToCartPage extends MyStoreAppHelper{
 	JavascriptExecutor executor;
 	private ReportLogService report=new ReportLogServiceImpl(AddToCartPage.class);
 
-	static Properties addtocartprop=loadProperties(MyStoreAppConstants.loginpagefile);
+	static Properties addtocartprop=loadProperties(MyStoreAppConstants.propertiesfile);
 	
 	public AddToCartPage(Browser browser)
 	{
 		
 		this.browser=browser;
 	}
+	
+	
 	
 	public void mouseOverProduct()
 	{
