@@ -214,7 +214,7 @@ public void enterMobileNumber(String mobilenumber) {
 }
 
 /**
- * this method enters the text into post code field
+ * this method enters the text into post code field.
  * @param postcode read the data from file.
  */
 public void enterPostCode(String postcode) {
