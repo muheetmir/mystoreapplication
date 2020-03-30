@@ -8,7 +8,7 @@ import com.atmecs.falcon.automation.ui.seleniuminterfaces.IKeys.KeyType;
 import com.atmecs.falcon.automation.util.enums.LocatorType;
 import com.atmecs.falcon.automation.util.reporter.ReportLogService;
 import com.atmecs.falcon.automation.util.reporter.ReportLogServiceImpl;
-import com.qa.automation.mystoreapp.pages.LoginPage;
+
 import com.qa.automation.mystoreapp.testsuite.TestSuiteBase;
 
 public class TestScript extends TestSuiteBase{

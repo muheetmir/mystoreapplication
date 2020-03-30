@@ -1,11 +1,14 @@
 C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\testsuite\TestSuiteBase.java
-C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\pages\AddToCartPage.java
+C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\dataprovider\ExcelReader.java
 C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\pages\PaymentPage.java
 C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\runner\TestNGRunner.java
 C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\config\MyStoreAppConstants.java
 C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\pages\CheckoutPage.java
 C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\pages\LoginPage.java
-C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\helper\MyStoreAppHelper.java
 C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\pages\HomePage.java
-C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\testscript\MyStoreOrder.java
 C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\testscript\TestScript.java
+C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\pages\RegistrationPage.java
+C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\pages\AddToCartPage.java
+C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\utilities\MyStoreUtility.java
+C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\testscript\MyStoreOrder.java
+C:\FalconTraining\FalconTraining\src\main\java\com\qa\automation\mystoreapp\testscript\NewCustomerRegistration.java

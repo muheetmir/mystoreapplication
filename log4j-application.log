@@ -2212,3 +2212,2162 @@
 2020-03-27 20:34:58 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
 2020-03-27 20:35:19 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
 2020-03-27 20:35:19 INFO  MyStoreOrder:49 - paying through check
+2020-03-28 19:07:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-28 19:07:24 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-28 19:07:24 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_80 is: WIN_10_chrome_80
+2020-03-28 19:07:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-28 19:07:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-28 19:07:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_80
+2020-03-28 19:07:25 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_80">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="80"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_80 -->
+
+2020-03-28 19:07:25 INFO  NewCustomerRegistration:49 - Opening browser: chrome
+2020-03-28 19:07:45 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-28 19:07:49 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-28 19:07:49 INFO  LoginPage:49 - sign into the application
+2020-03-28 19:07:54 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-28 19:07:54 INFO  RegistrationPage:49 - Click on create button
+2020-03-28 19:07:54 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-28 19:07:56 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-28 19:07:56 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-28 19:07:56 INFO  RegistrationPage:49 - Select Day
+2020-03-28 19:07:57 INFO  RegistrationPage:49 - Select Month
+2020-03-28 19:07:57 INFO  RegistrationPage:49 - Select Year
+2020-03-28 19:07:57 INFO  RegistrationPage:49 - Enter Address1
+2020-03-28 19:07:57 INFO  RegistrationPage:49 - Enter City
+2020-03-28 19:07:58 INFO  RegistrationPage:49 - Enter State
+2020-03-28 19:07:58 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-28 19:07:58 INFO  RegistrationPage:49 - Enter Country
+2020-03-28 19:07:58 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-28 19:07:58 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-28 19:08:00 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-28 19:08:00 INFO  LoginPage:49 - sign into the application
+2020-03-28 19:08:02 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-28 19:08:03 INFO  RegistrationPage:49 - Click on create button
+2020-03-28 19:08:03 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-28 19:08:05 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-28 19:08:05 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-28 19:08:05 INFO  RegistrationPage:49 - Select Day
+2020-03-28 19:08:06 INFO  RegistrationPage:49 - Select Month
+2020-03-28 19:08:06 INFO  RegistrationPage:49 - Select Year
+2020-03-28 19:08:06 INFO  RegistrationPage:49 - Enter Address1
+2020-03-28 19:08:06 INFO  RegistrationPage:49 - Enter City
+2020-03-28 19:08:07 INFO  RegistrationPage:49 - Enter State
+2020-03-28 19:08:07 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-28 19:08:07 INFO  RegistrationPage:49 - Enter Country
+2020-03-28 19:08:07 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-28 19:08:07 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-28 19:08:10 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-28 19:18:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-28 19:18:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-28 19:18:36 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_80 is: WIN_10_chrome_80
+2020-03-28 19:18:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-28 19:18:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-28 19:18:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_80
+2020-03-28 19:18:36 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_80">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="80"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_80 -->
+
+2020-03-28 19:18:36 INFO  NewCustomerRegistration:49 - Opening browser: chrome
+2020-03-28 19:18:55 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-28 19:18:57 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-28 19:18:57 INFO  LoginPage:49 - sign into the application
+2020-03-28 19:19:05 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-28 19:19:05 INFO  RegistrationPage:49 - Click on create button
+2020-03-28 19:19:05 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-28 19:19:12 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-28 19:19:12 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-28 19:19:12 INFO  RegistrationPage:49 - Select Day
+2020-03-28 19:19:13 INFO  RegistrationPage:49 - Select Month
+2020-03-28 19:19:13 INFO  RegistrationPage:49 - Select Year
+2020-03-28 19:19:13 INFO  RegistrationPage:49 - Enter Address1
+2020-03-28 19:19:13 INFO  RegistrationPage:49 - Enter City
+2020-03-28 19:19:13 INFO  RegistrationPage:49 - Enter State
+2020-03-28 19:19:14 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-28 19:19:14 INFO  RegistrationPage:49 - Enter Country
+2020-03-28 19:19:14 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-28 19:19:14 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-28 19:19:19 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-28 19:19:19 INFO  LoginPage:49 - sign into the application
+2020-03-28 19:19:24 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-28 19:19:24 INFO  RegistrationPage:49 - Click on create button
+2020-03-28 19:19:24 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-28 19:19:27 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-28 19:19:27 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-28 19:19:28 INFO  RegistrationPage:49 - Select Day
+2020-03-28 19:19:28 INFO  RegistrationPage:49 - Select Month
+2020-03-28 19:19:28 INFO  RegistrationPage:49 - Select Year
+2020-03-28 19:19:28 INFO  RegistrationPage:49 - Enter Address1
+2020-03-28 19:19:29 INFO  RegistrationPage:49 - Enter City
+2020-03-28 19:19:29 INFO  RegistrationPage:49 - Enter State
+2020-03-28 19:19:29 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-28 19:19:29 INFO  RegistrationPage:49 - Enter Country
+2020-03-28 19:19:29 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-28 19:19:29 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-28 19:19:32 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-28 19:36:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-28 19:36:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-28 19:36:40 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_80 is: WIN_10_chrome_80
+2020-03-28 19:36:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-28 19:36:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-28 19:36:40 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_80
+2020-03-28 19:36:40 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_80">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="80"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_80 -->
+
+2020-03-28 19:36:40 INFO  NewCustomerRegistration:49 - Opening browser: chrome
+2020-03-28 19:37:05 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-28 19:37:07 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-28 19:37:07 INFO  LoginPage:49 - sign into the application
+2020-03-28 19:37:11 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-28 19:37:11 INFO  RegistrationPage:49 - Click on create button
+2020-03-28 19:37:11 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-28 19:37:13 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-28 19:37:13 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-28 19:37:13 INFO  RegistrationPage:49 - Select Day
+2020-03-28 19:37:14 INFO  RegistrationPage:49 - Select Month
+2020-03-28 19:37:14 INFO  RegistrationPage:49 - Select Year
+2020-03-28 19:37:14 INFO  RegistrationPage:49 - Enter Address1
+2020-03-28 19:37:15 INFO  RegistrationPage:49 - Enter City
+2020-03-28 19:37:15 INFO  RegistrationPage:49 - Enter State
+2020-03-28 19:37:15 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-28 19:37:15 INFO  RegistrationPage:49 - Enter Country
+2020-03-28 19:37:15 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-28 19:37:16 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-28 19:37:18 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-28 19:37:18 INFO  LoginPage:49 - sign into the application
+2020-03-28 19:42:19 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-28 19:42:40 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-28 19:42:41 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-28 20:02:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-28 20:02:35 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-28 20:02:35 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-28 20:02:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-28 20:02:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-28 20:02:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-28 20:02:36 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-28 20:02:36 INFO  NewCustomerRegistration:49 - Opening browser: IE
+2020-03-28 20:08:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-28 20:08:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-28 20:08:37 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-28 20:08:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-28 20:08:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-28 20:08:37 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-28 20:08:37 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-28 20:08:38 INFO  NewCustomerRegistration:49 - Opening browser: IE
+2020-03-28 20:08:43 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-28 20:28:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-28 20:28:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-28 20:28:19 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-28 20:28:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-28 20:28:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-28 20:28:20 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-28 20:28:20 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-28 20:28:20 INFO  NewCustomerRegistration:49 - Opening browser: IE
+2020-03-28 20:28:36 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-28 20:28:37 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-28 20:28:37 INFO  LoginPage:49 - sign into the application
+2020-03-28 20:28:39 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-28 20:28:39 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-28 20:28:39 INFO  LoginPage:49 - sign into the application
+2020-03-28 20:28:39 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-28 20:29:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-28 20:29:05 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-28 20:29:05 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-28 20:29:06 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-28 20:29:06 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-28 20:29:06 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-28 20:29:06 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-28 20:29:06 INFO  NewCustomerRegistration:49 - Opening browser: IE
+2020-03-28 20:29:14 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-28 20:29:15 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-28 20:29:15 INFO  LoginPage:49 - sign into the application
+2020-03-28 20:29:18 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-28 20:29:20 INFO  RegistrationPage:49 - Click on create button
+2020-03-28 20:29:20 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-28 20:29:24 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-28 20:29:24 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-28 20:29:25 INFO  RegistrationPage:49 - Select Day
+2020-03-28 20:29:27 INFO  RegistrationPage:49 - Select Month
+2020-03-28 20:29:29 INFO  RegistrationPage:49 - Select Year
+2020-03-28 20:29:31 INFO  RegistrationPage:49 - Enter Address1
+2020-03-28 20:29:31 INFO  RegistrationPage:49 - Enter City
+2020-03-28 20:29:32 INFO  RegistrationPage:49 - Enter State
+2020-03-28 20:29:34 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-28 20:29:34 INFO  RegistrationPage:49 - Enter Country
+2020-03-28 20:29:35 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-28 20:29:35 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-28 20:32:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-28 20:32:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-28 20:32:28 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-28 20:32:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-28 20:32:28 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-28 20:32:29 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-28 20:32:29 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-28 20:32:29 INFO  NewCustomerRegistration:49 - Opening browser: IE
+2020-03-28 20:32:38 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-28 20:32:39 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-28 20:32:39 INFO  LoginPage:49 - sign into the application
+2020-03-28 20:32:42 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-28 20:32:43 INFO  RegistrationPage:49 - Click on create button
+2020-03-28 20:32:44 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-28 20:32:46 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-28 20:32:47 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-28 20:32:47 INFO  RegistrationPage:49 - Select Day
+2020-03-28 20:32:49 INFO  RegistrationPage:49 - Select Month
+2020-03-28 20:32:50 INFO  RegistrationPage:49 - Select Year
+2020-03-28 20:32:52 INFO  RegistrationPage:49 - Enter Address1
+2020-03-28 20:32:53 INFO  RegistrationPage:49 - Enter City
+2020-03-28 20:32:53 INFO  RegistrationPage:49 - Enter State
+2020-03-28 20:32:55 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-28 20:32:55 INFO  RegistrationPage:49 - Enter Country
+2020-03-28 20:32:56 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-28 20:32:56 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-28 20:33:05 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-28 20:33:05 INFO  LoginPage:49 - sign into the application
+2020-03-28 20:33:08 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-28 20:33:09 INFO  RegistrationPage:49 - Click on create button
+2020-03-28 20:33:10 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-28 20:33:12 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-28 20:33:12 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-28 20:33:13 INFO  RegistrationPage:49 - Select Day
+2020-03-28 20:33:15 INFO  RegistrationPage:49 - Select Month
+2020-03-28 20:33:16 INFO  RegistrationPage:49 - Select Year
+2020-03-28 20:33:19 INFO  RegistrationPage:49 - Enter Address1
+2020-03-28 20:33:19 INFO  RegistrationPage:49 - Enter City
+2020-03-28 20:33:20 INFO  RegistrationPage:49 - Enter State
+2020-03-28 20:33:21 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-28 20:33:22 INFO  RegistrationPage:49 - Enter Country
+2020-03-28 20:33:23 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-28 20:33:23 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-28 20:33:31 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 12:00:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 12:00:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 12:00:00 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 12:00:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 12:00:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 12:00:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 12:00:01 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 12:00:01 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 12:00:07 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 12:00:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 12:00:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 12:00:36 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 12:00:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 12:00:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 12:00:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 12:00:36 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 12:00:36 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 12:00:46 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 12:00:46 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 12:00:46 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 12:00:47 INFO  LoginPage:49 - enter the user name
+2020-03-30 12:00:51 INFO  LoginPage:49 - enter the password
+2020-03-30 12:00:51 INFO  LoginPage:49 - click on sign in button
+2020-03-30 12:00:54 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 12:01:15 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 12:01:15 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 12:01:31 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 12:01:35 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 12:01:35 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 12:01:39 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 12:01:44 INFO  CheckoutPage:49 - click on proceed to checkout button on shipping page
+2020-03-30 12:01:47 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 12:02:08 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 12:02:08 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 12:20:12 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 12:20:12 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 12:20:12 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 12:20:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 12:20:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 12:20:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 12:20:13 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 12:20:13 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 12:20:27 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 12:20:27 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 12:20:27 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 12:20:28 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 12:20:49 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 12:20:49 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 12:22:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 12:22:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 12:22:59 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 12:22:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 12:22:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 12:22:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 12:22:59 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 12:23:00 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 12:23:10 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 12:23:11 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 12:23:11 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 12:23:14 INFO  LoginPage:49 - enter the user name
+2020-03-30 12:23:15 INFO  LoginPage:49 - enter the password
+2020-03-30 12:23:16 INFO  LoginPage:49 - click on sign in button
+2020-03-30 12:23:20 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 12:23:41 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 12:23:41 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 12:24:21 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 12:24:24 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 12:24:24 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 12:24:35 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 12:24:40 INFO  CheckoutPage:49 - click on proceed to checkout button on shipping page
+2020-03-30 12:24:43 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 12:25:04 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 12:25:04 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 12:32:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 12:32:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 12:32:42 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 12:32:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 12:32:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 12:32:42 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 12:32:42 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 12:32:43 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 12:32:50 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 12:32:51 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 12:32:51 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 12:32:53 INFO  LoginPage:49 - enter the user name
+2020-03-30 12:32:54 INFO  LoginPage:49 - enter the password
+2020-03-30 12:32:55 INFO  LoginPage:49 - click on sign in button
+2020-03-30 12:32:59 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 12:33:20 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 12:33:20 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 12:33:34 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 12:33:38 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 12:33:38 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 12:33:41 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 12:33:48 INFO  CheckoutPage:49 - Accept the terms and conditions
+2020-03-30 12:33:49 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 12:34:10 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 12:34:10 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 12:40:25 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 12:40:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 12:40:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 12:40:41 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 12:40:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 12:40:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 12:40:41 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 12:40:41 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 12:40:42 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 12:40:50 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 12:40:50 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 12:40:50 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 12:40:52 INFO  LoginPage:49 - enter the user name
+2020-03-30 12:40:53 INFO  LoginPage:49 - enter the password
+2020-03-30 12:40:53 INFO  LoginPage:49 - click on sign in button
+2020-03-30 12:40:57 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 12:41:18 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 12:41:18 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 12:41:33 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 12:41:37 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 12:41:37 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 12:41:40 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 12:41:47 INFO  CheckoutPage:49 - Accept the terms and conditions
+2020-03-30 12:45:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 12:45:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 12:45:01 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 12:45:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 12:45:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 12:45:01 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 12:45:01 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 12:45:02 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 12:45:09 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 12:45:09 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 12:45:09 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 12:45:12 INFO  LoginPage:49 - enter the user name
+2020-03-30 12:45:13 INFO  LoginPage:49 - enter the password
+2020-03-30 12:45:13 INFO  LoginPage:49 - click on sign in button
+2020-03-30 12:45:17 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 12:45:38 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 12:45:38 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 12:45:52 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 12:45:55 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 12:45:56 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 12:45:59 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 12:46:06 INFO  CheckoutPage:49 - Accept the terms and conditions
+2020-03-30 12:46:06 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 12:46:27 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 12:46:27 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 13:02:00 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 13:02:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 13:02:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 13:02:23 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 13:02:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 13:02:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 13:02:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 13:02:23 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 13:02:24 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 13:02:33 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 13:02:33 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 13:02:33 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 13:02:34 INFO  LoginPage:49 - enter the user name
+2020-03-30 13:02:35 INFO  LoginPage:49 - enter the password
+2020-03-30 13:02:36 INFO  LoginPage:49 - click on sign in button
+2020-03-30 13:02:41 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 13:03:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 13:03:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 13:03:03 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 13:03:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 13:03:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 13:03:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 13:03:03 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 13:03:04 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 13:03:12 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 13:03:12 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 13:03:12 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 13:03:14 INFO  LoginPage:49 - enter the user name
+2020-03-30 13:03:15 INFO  LoginPage:49 - enter the password
+2020-03-30 13:03:15 INFO  LoginPage:49 - click on sign in button
+2020-03-30 13:03:19 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 13:03:40 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 13:03:40 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 13:03:56 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 13:03:59 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 13:03:59 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 13:04:03 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 13:04:10 INFO  CheckoutPage:49 - Accept the terms and conditions
+2020-03-30 13:14:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 13:14:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 13:14:19 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 13:14:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 13:14:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 13:14:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 13:14:19 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 13:14:20 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 13:14:28 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 13:14:28 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 13:14:28 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 13:14:29 INFO  LoginPage:49 - enter the user name
+2020-03-30 13:14:30 INFO  LoginPage:49 - enter the password
+2020-03-30 13:14:31 INFO  LoginPage:49 - click on sign in button
+2020-03-30 13:14:36 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 13:14:51 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 13:14:51 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 13:14:51 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 13:14:51 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 13:14:51 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 13:14:51 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 13:14:51 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 13:14:51 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 13:14:59 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 13:14:59 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 13:14:59 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 13:15:01 INFO  LoginPage:49 - enter the user name
+2020-03-30 13:15:02 INFO  LoginPage:49 - enter the password
+2020-03-30 13:15:02 INFO  LoginPage:49 - click on sign in button
+2020-03-30 13:15:06 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 13:15:27 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 13:15:27 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 13:15:42 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 13:15:46 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 13:15:46 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 13:15:49 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 13:15:56 INFO  CheckoutPage:49 - Accept the terms and conditions
+2020-03-30 13:19:51 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 13:19:51 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 13:19:51 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 13:19:51 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 13:19:51 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 13:19:51 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 13:19:51 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 13:19:51 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 13:19:59 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 13:20:00 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 13:20:00 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 13:20:02 INFO  LoginPage:49 - enter the user name
+2020-03-30 13:20:03 INFO  LoginPage:49 - enter the password
+2020-03-30 13:20:03 INFO  LoginPage:49 - click on sign in button
+2020-03-30 13:20:07 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 13:20:28 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 13:20:28 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 13:20:40 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 13:20:44 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 13:20:44 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 13:20:47 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 13:20:54 INFO  CheckoutPage:49 - Accept the terms and conditions
+2020-03-30 13:20:55 INFO  CheckoutPage:49 - click on checkout button
+2020-03-30 13:20:55 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 13:20:59 INFO  PaymentPage:49 - clicking on the confirm order button
+2020-03-30 13:21:02 INFO  VerificationManager:229 - PASS : verify order confirmaiton Actual value : Your order on My Store is complete. is same as Expected value: Your order on My Store is complete.
+2020-03-30 13:21:02 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 13:30:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 13:30:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 13:30:00 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 13:30:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 13:30:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 13:30:00 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 13:30:00 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 13:30:00 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 13:30:13 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 13:30:13 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 13:30:13 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 13:30:15 INFO  LoginPage:49 - enter the user name
+2020-03-30 13:30:16 INFO  LoginPage:49 - enter the password
+2020-03-30 13:30:18 INFO  LoginPage:49 - click on sign in button
+2020-03-30 13:30:22 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 13:30:43 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 13:30:43 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 13:30:58 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 13:31:02 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 13:31:02 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 13:31:06 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 13:31:12 INFO  CheckoutPage:49 - Accept the terms and conditions
+2020-03-30 13:31:13 INFO  CheckoutPage:49 - click on checkout button
+2020-03-30 13:31:15 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 13:31:17 INFO  PaymentPage:49 - clicking on the confirm order button
+2020-03-30 13:31:20 INFO  VerificationManager:229 - PASS : verify order confirmaiton Actual value : Your order on My Store is complete. is same as Expected value: Your order on My Store is complete.
+2020-03-30 13:31:20 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 13:47:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 13:47:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 13:47:33 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 13:47:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 13:47:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 13:47:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 13:47:33 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 13:47:34 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 13:47:43 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 13:47:43 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 13:47:43 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 13:47:45 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 13:48:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 13:48:25 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 13:48:26 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 13:48:26 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 13:48:26 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 13:48:26 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 13:48:26 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 13:48:26 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 13:48:41 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 13:48:41 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 13:48:41 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 13:48:42 INFO  LoginPage:49 - enter the user name
+2020-03-30 13:48:43 INFO  LoginPage:49 - enter the password
+2020-03-30 13:48:47 INFO  LoginPage:49 - click on sign in button
+2020-03-30 13:48:53 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 13:48:56 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 13:48:56 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 13:48:56 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 13:49:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 13:49:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 13:49:13 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 13:49:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 13:49:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 13:49:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 13:49:13 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 13:49:14 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 13:49:23 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 13:49:23 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 13:49:23 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 13:49:27 INFO  LoginPage:49 - enter the user name
+2020-03-30 13:49:27 INFO  LoginPage:49 - enter the password
+2020-03-30 13:49:30 INFO  LoginPage:49 - click on sign in button
+2020-03-30 13:49:34 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 13:54:14 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 13:54:15 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 14:06:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:06:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:06:04 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 14:06:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:06:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:06:04 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 14:06:04 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 14:06:04 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 14:06:14 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 14:06:14 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 14:06:14 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 14:06:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:06:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:06:49 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 14:06:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:06:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:06:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 14:06:50 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 14:06:50 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 14:06:58 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 14:06:58 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 14:06:58 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 14:07:02 INFO  LoginPage:49 - enter the user name
+2020-03-30 14:07:03 INFO  LoginPage:49 - enter the password
+2020-03-30 14:07:06 INFO  LoginPage:49 - click on sign in button
+2020-03-30 14:07:06 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 14:07:10 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 14:07:31 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 14:07:31 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 14:09:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:09:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:09:46 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 14:09:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:09:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:09:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 14:09:46 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 14:09:46 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 14:09:55 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 14:09:55 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 14:09:55 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 14:09:59 INFO  LoginPage:49 - enter the user name
+2020-03-30 14:09:59 INFO  LoginPage:49 - enter the password
+2020-03-30 14:10:00 INFO  LoginPage:49 - click on sign in button
+2020-03-30 14:10:01 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 14:10:01 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 14:14:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:14:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:14:34 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 14:14:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:14:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:14:34 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 14:14:34 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 14:14:35 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 14:15:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:15:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:15:57 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 14:15:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:15:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:15:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 14:15:57 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 14:15:57 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 14:16:07 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 14:16:08 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 14:16:08 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 14:16:11 INFO  LoginPage:49 - enter the user name
+2020-03-30 14:16:11 INFO  LoginPage:49 - enter the password
+2020-03-30 14:16:12 INFO  LoginPage:49 - click on sign in button
+2020-03-30 14:16:13 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 14:16:13 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 14:16:34 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 14:16:35 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 14:19:06 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:19:06 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:19:06 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 14:19:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:19:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:19:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 14:19:07 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 14:19:07 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 14:22:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:22:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:22:13 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 14:22:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:22:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:22:13 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 14:22:13 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 14:22:13 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 14:22:23 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 14:22:23 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 14:22:23 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 14:22:27 INFO  LoginPage:49 - enter the user name
+2020-03-30 14:22:28 INFO  LoginPage:49 - enter the password
+2020-03-30 14:22:29 INFO  LoginPage:49 - click on sign in button
+2020-03-30 14:22:30 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 14:22:31 ERROR VerificationManager:236 - FAIL : expected [aaa zzz] but found [Sign in] Actual value : Sign in is not same as Expected value: aaa zzz
+2020-03-30 14:22:31 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 14:22:52 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 14:22:52 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 14:27:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:27:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:27:52 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 14:27:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:27:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:27:52 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 14:27:52 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 14:27:52 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 14:28:02 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 14:28:02 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 14:28:02 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 14:28:06 INFO  LoginPage:49 - enter the user name
+2020-03-30 14:28:06 INFO  LoginPage:49 - enter the password
+2020-03-30 14:28:07 INFO  LoginPage:49 - click on sign in button
+2020-03-30 14:28:07 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 14:28:11 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : aaa zzz is same as Expected value: aaa zzz
+2020-03-30 14:28:11 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 14:42:58 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:42:58 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:42:58 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 14:42:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:42:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:42:59 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 14:42:59 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 14:42:59 INFO  MyStoreOrder:49 - Opening browser: Edge
+2020-03-30 14:43:19 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 14:43:19 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 14:43:19 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 14:43:20 INFO  LoginPage:49 - enter the user name
+2020-03-30 14:43:20 INFO  LoginPage:49 - enter the password
+2020-03-30 14:43:20 INFO  LoginPage:49 - click on sign in button
+2020-03-30 14:43:20 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 14:43:23 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 14:43:45 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 14:43:45 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 14:43:51 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 14:43:54 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 14:43:54 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 14:43:56 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 14:44:07 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 14:44:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:44:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:44:50 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 14:44:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:44:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:44:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 14:44:50 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 14:44:50 INFO  MyStoreOrder:49 - Opening browser: Edge
+2020-03-30 14:45:20 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 14:45:20 ERROR VerificationManager:236 - FAIL : expected [My Store] but found [Error 500 - Internal Server Error] Actual value : Error 500 - Internal Server Error is not same as Expected value: My Store
+2020-03-30 14:45:20 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 14:45:20 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 14:45:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:45:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:45:49 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 14:45:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:45:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:45:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 14:45:49 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 14:45:49 INFO  MyStoreOrder:49 - Opening browser: Edge
+2020-03-30 14:46:45 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 14:46:45 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 14:46:45 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 14:46:45 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 14:46:45 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 14:46:45 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 14:46:45 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 14:46:45 INFO  MyStoreOrder:49 - Opening browser: Edge
+2020-03-30 14:47:04 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 14:47:04 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 14:47:04 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 14:47:07 INFO  LoginPage:49 - enter the user name
+2020-03-30 14:47:07 INFO  LoginPage:49 - enter the password
+2020-03-30 14:47:07 INFO  LoginPage:49 - click on sign in button
+2020-03-30 14:47:07 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 14:47:10 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : aaa zzz is same as Expected value: aaa zzz
+2020-03-30 14:47:10 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 14:47:17 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 14:47:20 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 14:47:20 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 14:47:22 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 14:47:29 INFO  CheckoutPage:49 - Accept the terms and conditions
+2020-03-30 14:47:29 INFO  CheckoutPage:49 - click on checkout button
+2020-03-30 14:47:29 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 14:47:32 INFO  PaymentPage:49 - clicking on the confirm order button
+2020-03-30 14:47:35 INFO  VerificationManager:229 - PASS : verify order confirmaiton Actual value : Your order on My Store is complete. is same as Expected value: Your order on My Store is complete.
+2020-03-30 14:47:35 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 15:53:02 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 15:53:02 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 15:53:02 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74
+2020-03-30 15:53:02 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 15:53:02 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 15:53:02 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74
+2020-03-30 15:53:02 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+
+2020-03-30 15:53:03 INFO  MyStoreOrder:49 - Opening browser: Firefox
+2020-03-30 15:53:33 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 15:53:33 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 15:53:33 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 15:53:39 INFO  LoginPage:49 - enter the user name
+2020-03-30 15:53:39 INFO  LoginPage:49 - enter the password
+2020-03-30 15:53:39 INFO  LoginPage:49 - click on sign in button
+2020-03-30 15:53:43 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 15:53:46 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : aaa zzz is same as Expected value: aaa zzz
+2020-03-30 15:53:46 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 15:53:57 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 15:54:18 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 15:54:21 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 15:54:21 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 15:55:48 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 15:55:49 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 20:17:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 20:17:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 20:17:32 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74
+2020-03-30 20:17:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 20:17:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 20:17:33 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74
+2020-03-30 20:17:33 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+
+2020-03-30 20:17:33 INFO  MyStoreOrder:49 - Opening browser: Firefox
+2020-03-30 20:18:39 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 20:18:39 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 20:18:39 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 20:18:44 INFO  LoginPage:49 - enter the user name
+2020-03-30 20:18:44 INFO  LoginPage:49 - enter the password
+2020-03-30 20:18:44 INFO  LoginPage:49 - click on sign in button
+2020-03-30 20:18:49 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 20:18:52 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : aaa zzz is same as Expected value: aaa zzz
+2020-03-30 20:18:52 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 20:19:05 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 20:19:26 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 20:20:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 20:20:38 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 20:20:38 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74
+2020-03-30 20:20:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 20:20:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 20:20:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74
+2020-03-30 20:20:39 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+
+2020-03-30 20:20:39 INFO  MyStoreOrder:49 - Opening browser: Firefox
+2020-03-30 20:21:28 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 20:21:28 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 20:21:28 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 20:21:35 INFO  LoginPage:49 - enter the user name
+2020-03-30 20:21:35 INFO  LoginPage:49 - enter the password
+2020-03-30 20:21:35 INFO  LoginPage:49 - click on sign in button
+2020-03-30 20:21:40 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 20:21:43 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : aaa zzz is same as Expected value: aaa zzz
+2020-03-30 20:21:43 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 20:22:00 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 20:38:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 20:38:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 20:38:43 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74
+2020-03-30 20:38:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 20:38:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 20:38:43 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74
+2020-03-30 20:38:43 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+
+2020-03-30 20:38:43 INFO  MyStoreOrder:49 - Opening browser: Firefox
+2020-03-30 20:39:14 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 20:39:14 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 20:39:14 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 20:39:20 INFO  LoginPage:49 - enter the user name
+2020-03-30 20:39:20 INFO  LoginPage:49 - enter the password
+2020-03-30 20:39:20 INFO  LoginPage:49 - click on sign in button
+2020-03-30 20:39:25 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 20:39:28 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : aaa zzz is same as Expected value: aaa zzz
+2020-03-30 20:39:28 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 20:39:42 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 20:43:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 20:43:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 20:43:08 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74
+2020-03-30 20:43:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 20:43:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 20:43:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74
+2020-03-30 20:43:08 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+
+2020-03-30 20:43:08 INFO  MyStoreOrder:49 - Opening browser: Firefox
+2020-03-30 20:43:35 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 20:43:36 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 20:43:36 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 20:43:41 INFO  LoginPage:49 - enter the user name
+2020-03-30 20:43:41 INFO  LoginPage:49 - enter the password
+2020-03-30 20:43:41 INFO  LoginPage:49 - click on sign in button
+2020-03-30 20:43:44 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 20:43:47 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : aaa zzz is same as Expected value: aaa zzz
+2020-03-30 20:43:47 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 20:46:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 20:46:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 20:46:55 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74
+2020-03-30 20:46:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 20:46:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 20:46:55 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74
+2020-03-30 20:46:55 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+
+2020-03-30 20:46:55 INFO  MyStoreOrder:49 - Opening browser: Firefox
+2020-03-30 20:47:25 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 20:47:25 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 20:47:25 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 20:47:32 INFO  LoginPage:49 - enter the user name
+2020-03-30 20:47:33 INFO  LoginPage:49 - enter the password
+2020-03-30 20:47:33 INFO  LoginPage:49 - click on sign in button
+2020-03-30 20:47:37 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 20:47:40 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : aaa zzz is same as Expected value: aaa zzz
+2020-03-30 20:47:40 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 20:48:07 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 20:48:11 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 20:48:11 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 20:48:16 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 20:56:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 20:56:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 20:56:22 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74
+2020-03-30 20:56:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 20:56:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 20:56:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74
+2020-03-30 20:56:22 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+
+2020-03-30 20:56:22 INFO  MyStoreOrder:49 - Opening browser: Firefox
+2020-03-30 20:57:00 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 20:57:01 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 20:57:01 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 20:57:08 INFO  LoginPage:49 - enter the user name
+2020-03-30 20:57:08 INFO  LoginPage:49 - enter the password
+2020-03-30 20:57:08 INFO  LoginPage:49 - click on sign in button
+2020-03-30 20:57:13 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 20:57:16 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : aaa zzz is same as Expected value: aaa zzz
+2020-03-30 20:57:16 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 20:57:36 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 20:57:40 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 20:57:40 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 20:57:46 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 20:57:51 INFO  CheckoutPage:49 - Accept the terms and conditions
+2020-03-30 20:57:51 INFO  CheckoutPage:49 - click on checkout button
+2020-03-30 20:57:54 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 20:57:55 INFO  PaymentPage:49 - clicking on the confirm order button
+2020-03-30 20:57:59 INFO  VerificationManager:229 - PASS : verify order confirmaiton Actual value : Your order on My Store is complete. is same as Expected value: Your order on My Store is complete.
+2020-03-30 20:58:00 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 21:01:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 21:01:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 21:01:36 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_chrome_80 is: WIN_10_chrome_80
+2020-03-30 21:01:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 21:01:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 21:01:36 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_80
+2020-03-30 21:01:36 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_80">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="80"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_80 -->
+
+2020-03-30 21:01:36 INFO  MyStoreOrder:49 - Opening browser: chrome
+2020-03-30 21:02:13 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 21:02:15 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 21:02:15 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 21:02:21 INFO  LoginPage:49 - enter the user name
+2020-03-30 21:02:21 INFO  LoginPage:49 - enter the password
+2020-03-30 21:02:21 INFO  LoginPage:49 - click on sign in button
+2020-03-30 21:02:24 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 21:02:27 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : aaa zzz is same as Expected value: aaa zzz
+2020-03-30 21:02:27 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 21:02:40 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 21:03:16 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 21:03:20 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 21:03:23 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 21:03:28 INFO  CheckoutPage:49 - Accept the terms and conditions
+2020-03-30 21:03:28 INFO  CheckoutPage:49 - click on checkout button
+2020-03-30 21:03:31 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 21:03:32 INFO  PaymentPage:49 - clicking on the confirm order button
+2020-03-30 21:03:36 INFO  VerificationManager:229 - PASS : verify order confirmaiton Actual value : Your order on My Store is complete. is same as Expected value: Your order on My Store is complete.
+2020-03-30 21:03:37 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 21:05:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 21:05:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 21:05:15 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 21:05:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 21:05:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 21:05:15 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 21:05:15 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.MyStoreOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 21:05:15 INFO  MyStoreOrder:49 - Opening browser: IE
+2020-03-30 21:05:58 INFO  MyStoreOrder:49 - Maximizing browser window
+2020-03-30 21:05:58 INFO  VerificationManager:229 - PASS : Verifying the login page title Actual value : My Store is same as Expected value: My Store
+2020-03-30 21:05:58 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 21:06:05 INFO  LoginPage:49 - enter the user name
+2020-03-30 21:06:07 INFO  LoginPage:49 - enter the password
+2020-03-30 21:06:08 INFO  LoginPage:49 - click on sign in button
+2020-03-30 21:06:09 INFO  LoginPage:49 - sign  in button is clicked
+2020-03-30 21:06:12 INFO  VerificationManager:229 - PASS : verifying user first and last name Actual value : aaa zzz is same as Expected value: aaa zzz
+2020-03-30 21:06:12 INFO  MyStoreOrder:49 - Adding item into cart
+2020-03-30 21:06:32 INFO  AddToCartPage:49 - click on add to cart button
+2020-03-30 21:06:51 INFO  CheckoutPage:49 - click on proceed to checkout button
+2020-03-30 21:06:51 INFO  CheckoutPage:49 - clicking on proceed to checkout button on summary page
+2020-03-30 21:06:59 INFO  CheckoutPage:49 - click on proceed to checkout button on address page
+2020-03-30 21:07:05 INFO  CheckoutPage:49 - Accept the terms and conditions
+2020-03-30 21:07:05 INFO  CheckoutPage:49 - click on checkout button
+2020-03-30 21:07:09 INFO  PaymentPage:49 - clicking on the pay by check link
+2020-03-30 21:07:11 INFO  PaymentPage:49 - clicking on the confirm order button
+2020-03-30 21:07:15 INFO  VerificationManager:229 - PASS : verify order confirmaiton Actual value : Your order on My Store is complete. is same as Expected value: Your order on My Store is complete.
+2020-03-30 21:07:15 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 21:58:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 21:58:22 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 21:58:22 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 21:58:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 21:58:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 21:58:23 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 21:58:23 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 21:58:24 INFO  NewCustomerRegistration:49 - Opening browser: IE
+2020-03-30 21:58:39 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 21:58:41 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 21:58:41 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 21:58:43 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 21:59:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 21:59:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 21:59:14 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 21:59:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 21:59:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 21:59:14 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 21:59:14 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 21:59:14 INFO  NewCustomerRegistration:49 - Opening browser: IE
+2020-03-30 21:59:24 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 21:59:26 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 21:59:26 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 21:59:30 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 21:59:31 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 21:59:32 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 21:59:44 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 21:59:44 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 21:59:45 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 22:00:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 22:00:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 22:00:57 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_IE_11 is: WIN_10_IE_11
+2020-03-30 22:00:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 22:00:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 22:00:57 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_IE_11
+2020-03-30 22:00:57 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_IE_11">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_IE_11 -->
+
+2020-03-30 22:00:57 INFO  NewCustomerRegistration:49 - Opening browser: IE
+2020-03-30 22:01:11 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 22:01:12 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:01:12 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:01:16 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:01:17 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:01:17 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:01:21 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:01:22 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:01:22 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:01:24 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:01:25 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:01:27 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:01:27 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:01:28 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:01:29 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-30 22:01:29 INFO  RegistrationPage:49 - Enter Country
+2020-03-30 22:01:30 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-30 22:01:31 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-30 22:01:41 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:01:41 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:01:43 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:01:44 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:01:45 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:01:48 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:01:49 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:01:49 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:01:50 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:01:52 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:01:53 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:01:54 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:01:54 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:01:56 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-30 22:01:56 INFO  RegistrationPage:49 - Enter Country
+2020-03-30 22:01:57 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-30 22:01:57 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-30 22:02:03 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 22:06:11 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 22:06:11 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 22:06:11 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 22:06:11 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 22:06:11 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 22:06:11 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 22:06:11 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 22:06:11 INFO  NewCustomerRegistration:49 - Opening browser: Edge
+2020-03-30 22:07:15 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 22:07:17 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:07:17 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:07:17 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:07:33 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:07:33 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:07:37 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:07:37 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:07:37 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:07:37 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:07:38 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:07:38 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:07:38 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:07:38 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:07:38 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-30 22:07:38 INFO  RegistrationPage:49 - Enter Country
+2020-03-30 22:07:38 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-30 22:07:38 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-30 22:07:45 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:07:45 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:07:56 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:08:01 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:08:02 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:08:07 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:08:07 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:08:07 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:08:07 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:08:08 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:08:08 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:08:08 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:08:08 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:08:08 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 22:08:30 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 22:08:30 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 22:10:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 22:10:07 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 22:10:07 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 22:10:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 22:10:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 22:10:08 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 22:10:08 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 22:10:08 INFO  NewCustomerRegistration:49 - Opening browser: Edge
+2020-03-30 22:10:23 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 22:10:24 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:10:24 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:10:25 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:10:29 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:10:29 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:10:31 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:10:31 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:10:31 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:10:31 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:10:31 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:10:31 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:10:31 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:10:32 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:10:32 INFO  CustomListener:49 - FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details
+2020-03-30 22:10:53 INFO  CustomListener:49 - Unknown error cannot upload screenshot to server : Connection timed out: connect
+2020-03-30 22:10:53 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:10:53 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:10:53 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:10:57 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:10:57 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:11:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 22:11:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 22:11:53 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 22:11:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 22:11:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 22:11:54 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 22:11:54 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 22:11:54 INFO  NewCustomerRegistration:49 - Opening browser: Edge
+2020-03-30 22:11:57 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 22:12:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 22:12:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 22:12:50 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 22:12:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 22:12:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 22:12:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 22:12:50 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 22:12:50 INFO  NewCustomerRegistration:49 - Opening browser: Edge
+2020-03-30 22:13:01 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 22:13:02 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:13:02 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:13:03 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:13:05 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:13:05 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:13:07 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:13:07 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:13:08 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:13:09 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:13:09 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:13:09 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:13:09 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:13:09 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:13:09 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-30 22:13:09 INFO  RegistrationPage:49 - Enter Country
+2020-03-30 22:13:09 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-30 22:13:09 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-30 22:14:03 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:14:03 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:14:03 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 22:14:31 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 22:14:31 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 22:14:31 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 22:14:31 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 22:14:31 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 22:14:31 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 22:14:31 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 22:14:31 INFO  NewCustomerRegistration:49 - Opening browser: Edge
+2020-03-30 22:14:42 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 22:14:44 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:14:44 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:14:44 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:14:48 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:14:48 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:14:49 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:14:49 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:14:49 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:14:50 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:14:50 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:14:50 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:14:50 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:14:51 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:14:51 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-30 22:14:51 INFO  RegistrationPage:49 - Enter Country
+2020-03-30 22:14:51 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-30 22:14:51 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-30 22:15:06 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:15:06 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:15:06 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 22:16:31 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 22:16:31 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 22:16:31 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 22:16:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 22:16:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 22:16:32 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 22:16:32 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 22:16:32 INFO  NewCustomerRegistration:49 - Opening browser: Edge
+2020-03-30 22:16:41 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 22:16:43 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:16:43 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:16:43 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:16:46 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:16:47 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:16:49 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:16:49 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:16:49 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:16:49 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:16:49 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:16:50 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:16:50 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:16:50 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:16:51 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-30 22:16:51 INFO  RegistrationPage:49 - Enter Country
+2020-03-30 22:16:51 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-30 22:16:51 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-30 22:17:03 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:17:03 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:17:04 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 22:18:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 22:18:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 22:18:19 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 22:18:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 22:18:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 22:18:19 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 22:18:19 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 22:18:19 INFO  NewCustomerRegistration:49 - Opening browser: Edge
+2020-03-30 22:18:30 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 22:18:31 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:18:31 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:18:31 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:18:35 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:18:35 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:18:37 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:18:37 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:18:38 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:18:38 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:18:38 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:18:38 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:18:38 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:18:39 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:18:39 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-30 22:18:39 INFO  RegistrationPage:49 - Enter Country
+2020-03-30 22:18:39 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-30 22:18:39 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-30 22:18:42 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:18:42 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:18:46 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:18:47 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:18:47 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:19:29 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 22:20:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 22:20:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 22:20:39 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42
+2020-03-30 22:20:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 22:20:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 22:20:39 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42
+2020-03-30 22:20:39 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+
+2020-03-30 22:20:40 INFO  NewCustomerRegistration:49 - Opening browser: Edge
+2020-03-30 22:20:51 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 22:20:52 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:20:52 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:20:53 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:20:55 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:20:56 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:22:37 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:22:37 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 22:23:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 22:23:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 22:23:46 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74
+2020-03-30 22:23:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 22:23:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 22:23:46 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74
+2020-03-30 22:23:46 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+
+2020-03-30 22:23:46 INFO  NewCustomerRegistration:49 - Opening browser: Firefox
+2020-03-30 22:24:51 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 22:24:52 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:24:52 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:24:59 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:24:59 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:25:00 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:25:04 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:25:04 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:25:04 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:25:05 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:25:06 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:25:06 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:25:06 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:25:06 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:25:07 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-30 22:25:07 INFO  RegistrationPage:49 - Enter Country
+2020-03-30 22:25:08 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-30 22:25:08 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-30 22:25:15 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:25:15 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:25:19 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:25:19 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:25:19 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:26:11 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2020-03-30 22:28:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-03-30 22:28:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2020-03-30 22:28:03 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74
+2020-03-30 22:28:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2020-03-30 22:28:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2020-03-30 22:28:03 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74
+2020-03-30 22:28:03 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapp.testscript.NewCustomerRegistration"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+
+2020-03-30 22:28:03 INFO  NewCustomerRegistration:49 - Opening browser: Firefox
+2020-03-30 22:29:03 INFO  NewCustomerRegistration:49 - Maximizing browser window
+2020-03-30 22:29:05 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:29:05 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:29:10 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:29:10 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:29:10 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:29:12 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:29:12 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:29:12 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:29:13 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:29:13 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:29:14 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:29:14 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:29:14 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:29:14 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-30 22:29:14 INFO  RegistrationPage:49 - Enter Country
+2020-03-30 22:29:15 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-30 22:29:15 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-30 22:29:21 INFO  NewCustomerRegistration:49 - Register a new customer 
+2020-03-30 22:29:21 INFO  LoginPage:49 - clicking on sign in link
+2020-03-30 22:29:23 INFO  RegistrationPage:49 - Enter Email Address
+2020-03-30 22:29:23 INFO  RegistrationPage:49 - Click on create button
+2020-03-30 22:29:24 INFO  RegistrationPage:49 - Enter Customer First name
+2020-03-30 22:29:26 INFO  RegistrationPage:49 - Enter Customer Last name
+2020-03-30 22:29:26 INFO  RegistrationPage:49 - Enter Customer Password
+2020-03-30 22:29:26 INFO  RegistrationPage:49 - Select Day
+2020-03-30 22:29:27 INFO  RegistrationPage:49 - Select Month
+2020-03-30 22:29:27 INFO  RegistrationPage:49 - Select Year
+2020-03-30 22:29:28 INFO  RegistrationPage:49 - Enter Address1
+2020-03-30 22:29:28 INFO  RegistrationPage:49 - Enter City
+2020-03-30 22:29:28 INFO  RegistrationPage:49 - Enter State
+2020-03-30 22:29:28 INFO  RegistrationPage:49 - Enter Post coder
+2020-03-30 22:29:28 INFO  RegistrationPage:49 - Enter Country
+2020-03-30 22:29:28 INFO  RegistrationPage:49 - Enter Mobile number
+2020-03-30 22:29:29 INFO  RegistrationPage:49 - Enter Register Button
+2020-03-30 22:29:36 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false

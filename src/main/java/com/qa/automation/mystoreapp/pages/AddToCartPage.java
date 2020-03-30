@@ -1,50 +1,57 @@
 package com.qa.automation.mystoreapp.pages;
 
 import java.util.Properties;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-
 import com.atmecs.falcon.automation.ui.selenium.Browser;
 import com.atmecs.falcon.automation.util.enums.LocatorType;
 import com.atmecs.falcon.automation.util.reporter.ReportLogService;
 import com.atmecs.falcon.automation.util.reporter.ReportLogServiceImpl;
 import com.qa.automation.mystoreapp.config.MyStoreAppConstants;
-import com.qa.automation.mystoreapp.helper.MyStoreAppHelper;
+import com.qa.automation.mystoreapp.utilities.MyStoreUtility;
 
-public class AddToCartPage extends MyStoreAppHelper{
+/**
+ * It contains methods which are use to add the item into cart and it extends MyStoreUtility class.
+ * @author mir.ali
+ *
+ */
+public class AddToCartPage {
 	Browser browser;
 	
 	JavascriptExecutor executor;
 	private ReportLogService report=new ReportLogServiceImpl(AddToCartPage.class);
 
-	static Properties addtocartprop=loadProperties(MyStoreAppConstants.propertiesfile);
+	static Properties addtocartprop=MyStoreUtility.loadProperties(MyStoreAppConstants.PROPERTIES_FILE);
 	
 	public AddToCartPage(Browser browser)
 	{
-		
 		this.browser=browser;
 	}
 	
 	
-	
-	public void mouseOverProduct()
-	{
-		WebElement productitem=browser.getDriver().findElement(By.xpath("//div[@class='product-container']"));
-		browser.getMouse().mouseHover(productitem);
-	}
-	
-	public void clickOnMore()
-	{
-		String btnmore=addtocartprop.getProperty("btnmore_xpath");
-		browser.getClick().performClick(LocatorType.XPATH, btnmore);
-	}
-	
+	// clicking on the add to cart button
 	public void clickAddToCartBtn()
 	{
+		report.info("click on add to cart button");
 		String btnaddtocart=addtocartprop.getProperty("btnaddtocart_name");
 		browser.getClick().performClick(LocatorType.NAME, btnaddtocart);
+		
+	}
+	
+	// updating the quantity of the product selected on add to cart page
+	public void updateQuantity(int quantity)
+	{
+		report.info("updating the item quantity");
+		String qty=addtocartprop.getProperty("txtquantity");
+		browser.getTextField().enterTextField(LocatorType.XPATH,qty,"quantity");
+	}
+	
+	// updating the size of selected product at add to cart page.
+	public void updateSize(String size)
+	{
+		report.info("updating the item size");
+		String drpsize=addtocartprop.getProperty("drpitemsize");
+		browser.getSelectDropDown().selectByVisibleText(LocatorType.XPATH, drpsize, size);
+		
 	}
 	
 	

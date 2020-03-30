@@ -1,4 +1,4 @@
-package com.qa.automation.mystoreapp.helper;
+package com.qa.automation.mystoreapp.utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,12 +8,19 @@ import java.util.Properties;
 import com.atmecs.falcon.automation.ui.selenium.Browser;
 
 
-public class MyStoreAppHelper {
+/**
+ * This class acts as utility for reading the data from properties file
+ * @author mir ali
+ *
+ */
+public class MyStoreUtility {
 	Browser browser;
 	Properties prop = new Properties();
-	String propertyFilePath = "src" + File.separator + "main" + File.separator + "resources" + File.separator
-			+"pages"+File.separator+"locators.properties";
-
+/**
+ * This method reads the properties file
+ * @param propertyFilePath path of the file where it is located
+ * @return object of properties class
+ */
 	 public static Properties loadProperties(String propertyFilePath ) { 
 		 File file=new File(propertyFilePath);
 		 FileInputStream fileInput=null; 

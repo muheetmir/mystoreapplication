@@ -21,9 +21,9 @@ public class TestSuiteBase {
         LogManager.setLogLevel(LogLevel.valueOf(PropertyParser.readEnvOrConfigProperty("LOG_LEVEL")));
     }
 
-   @AfterSuite
+  /* @AfterSuite
     public void teardown() {
         browser.closeBrowser();
-    }
+    }*/
 
 }
